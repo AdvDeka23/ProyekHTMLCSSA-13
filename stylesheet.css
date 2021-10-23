@@ -1,0 +1,246 @@
+*{
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  font-family: "Arial";
+  background-image: url(sky.jpg);
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 105px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  margin-top: 20px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #b3aeb5;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.menu-icon {
+  color: #b3aeb5;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:  none !important;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.brand {
+  color: #b3aeb5;
+  font-size: 45px;
+  font-weight: bold;
+  float: right;
+  padding-top: 30px;
+}
+
+.wrapper {
+  height: 500px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 15px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.footer-menu {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.footer-copyright {
+  clear: both;
+  text-align: center;
+}
+
+.footer-menu ul li {
+  list-style: none;
+  margin-left: -2.6em;
+  font-size: 15px;
+}
+
+.footer-title {
+  border-bottom: 1px dotted;
+  padding-bottom: 10px;
+}
+
+.footer-menu ul li a {
+  color: #b3aeb5;
+}
+
+.footer-menu ul li a:hover {
+  color: red;
+}
+
+.search {
+  padding: 10px 15px;
+  background:rgba(29, 28, 28, 0.2);
+  border:0px solid #dbdbdb;
+  margin-right: -5px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  transition: none;
+  display: inline-block;
+  background-color:#68b1c1;
+}
+
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.f-search {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #b3aeb5;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.button-search {
+  padding: 10px;
+  border:0px solid #dbdbdb;
+}
+
+.main{
+	height: auto;
+}
+
+.judul{
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 130px;
+	padding-bottom: 10px;
+	border-bottom: 3px dotted #333;
+}
+.main-image img{
+	border-radius: 9px;
+  float: left;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.main li{
+	list-style: none;
+	font-size: 15px;
+	margin-top: 10px;
+}	
+
+.main li a{
+	color: black;
+}
+
+.country h3{
+	font-size: 15px;
+}
+
+.where h3{
+	font-size: 15px;
+}
+
+.about img{
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.sinopsis h1{
+	border-bottom: 2px dotted black;
+}
+.pemeran h1{
+	margin-top: 30px;
+	border-bottom: 2px dotted black;
+}
+.namanama{
+	float: left;
+	padding-right: 100px;
+}
+.namanama li{
+	list-style: circle; 
+	text-align: left;
+	font-size: medium;
+}
+
+.penampilan h1{
+	margin-top: 30px;
+  border-bottom: 2px dotted black;
+}
+.penampilan li{
+	list-style: circle;
+	text-align: left;
+	font-size: medium;
+}
+.ulasan h1{
+	margin-top: 30px;
+	border-bottom: 2px dotted black;
+}
+.ulasan li{
+	list-style: circle; 
+	text-align: left;
+	font-size: medium;
+}
+
+.sinopsis p {
+  line-height: 30px;
+}
